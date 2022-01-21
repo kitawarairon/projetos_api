@@ -4,9 +4,10 @@ from PyQt5.QtWidgets import QPushButton, QLineEdit, QSizePolicy
 
 
 class Calculadora(QMainWindow):
+
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.setWindowTitle('Calculadora do Luiz')
+        self.setWindowTitle('Calculadora do pEDRO')
         self.setFixedSize(400, 400)
         self.cw = QWidget()
         self.grid = QGridLayout(self.cw)
